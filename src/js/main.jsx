@@ -12,12 +12,15 @@ import '../styles/index.css'
 import Home from './components/Home';
 import Navbar from './components/navbar';
 import Jumbotron from './components/Jumbotron';
+import Cards from './components/Cards';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar />
     <div className='container'>
       <Jumbotron />
+      <Cards />
+      <Cards />
     </div>
   </React.StrictMode>,
 )
